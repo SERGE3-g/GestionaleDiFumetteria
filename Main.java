@@ -1,5 +1,14 @@
 
+/*
+    * 1. Creare una classe Autore che rappresenta un autore di fumetti.
+    * 2. Creare una classe Fumetto che rappresenta un fumetto.
+    * 3. Creare una classe Fumetteria che rappresenta una fumetteria.
+    * 4. Creare una classe Main che permetta di testare le classi precedenti.
+    * 5. Creare un metodo espandiMagazzino() che permetta di espandere il magazzino della fumetteria.
+    *
 
+
+ */
 public class Main {
 
     public static void main(String[] args) {

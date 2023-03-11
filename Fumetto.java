@@ -1,4 +1,5 @@
 
+//
 public class Fumetto {
 
     private Autore autore;

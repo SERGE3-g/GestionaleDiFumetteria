@@ -13,7 +13,9 @@ Buongiorno, questo è il progetto di gestione di una fumetteria, in cui è possi
 * Scaricare il progetto
 * Aprire il progetto con Eclipse o un altro IDE
 * Eseguire il file Main.java
+* 
 
+        Grazie per aver scaricato il progetto, buona giornata e a presto.
 
 
 

@@ -12,7 +12,7 @@ public class Fumetteria {
         this.magazzino = new Fumetto[5];
     }
 
-    public boolean aggiungiFumetto(Fumetto fumetto) {
+    public boolean aggiungiFumetto(Fumetto fumetto) { // TOD
         if(isPresent(fumetto.getTitolo())) {
             System.out.println("il fumetto è già presente");
             return false;
@@ -22,8 +22,8 @@ public class Fumetteria {
             this.magazzino = espandiMagazzino();
         }
 
-
-        for(int i = 0; i < this.magazzino.length; i++) {
+                // System arraycopy
+        for(int i = 0; i < this.magazzino.length; i++) { //
             if(magazzino[i] == null) {
                 magazzino[i] = fumetto;
                 break;
